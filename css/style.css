@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+main {
+    background-color: black;
+    height: 100vh;
+    padding-left: 0px;
+}
+
+.container {
+    padding-top: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    top: 30%;
+    z-index: 1;
+    position: absolute;
+    float: left;
+    max-width: 900px;
+}
+
+.profile {
+    top: 70px;
+    vertical-align: middle;
+    position: relative;
+    max-width: 400px;
+    float: right;
+}
+
+main {
+    font-family: 'Abril Fatface', cursive;
+}
+
+main h2 {
+    font-size: 40px;
+    color: white;   
+    margin-bottom: 10px;
+}
+
+main p {
+    color: white; 
+    font-size: 24px; 
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+}
